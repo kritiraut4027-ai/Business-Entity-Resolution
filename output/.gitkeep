@@ -1,0 +1,2 @@
+# Placeholder to ensure output directory exists in git checkouts.
+# Actual generated outputs (*.tsv, *.db) are excluded via .gitignore.

@@ -1,0 +1,164 @@
+{
+  "train_source1.tsv": {
+    "size_mb": 200.34,
+    "total_rows": 2206821,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "sample_head": [
+      {
+        "entity_id": "S1-925783039",
+        "business_name": "Orelee's Barbershop",
+        "business_address": "1795 Westchester Drive, High Point, NC",
+        "country": "US"
+      },
+      {
+        "entity_id": "S1-773889195",
+        "business_name": "Prime Money",
+        "business_address": "17560 Ellis Road, Tahlequah, OK",
+        "country": "US"
+      }
+    ]
+  },
+  "train_source2.tsv": {
+    "size_mb": 466.63,
+    "total_rows": 5034616,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "sample_head": [
+      {
+        "entity_id": "S2-166376419",
+        "business_name": "\u0930\u093e\u092e \u092e\u093e\u0930\u094d\u0915\u0947\u091f\u093f\u0902\u0917 \u092a\u094d\u0930\u093e\u0907\u0935\u0947\u091f \u0932\u093f\u092e\u093f\u091f\u0947\u0921",
+        "business_address": "KH NO. -570/13, NEW DELHI, WEST DELHI, Delhi",
+        "country": "India"
+      },
+      {
+        "entity_id": "S2-764573417",
+        "business_name": "-- Holloway Peak Inc Seafood",
+        "business_address": "105 ELM ST, MORGANTON, NC",
+        "country": "US"
+      }
+    ]
+  },
+  "train_source3.tsv": {
+    "size_mb": 480.37,
+    "total_rows": 5285603,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "sample_head": [
+      {
+        "entity_id": "S3-202863386",
+        "business_name": "wilfordhancock.com",
+        "business_address": "Mack Rd, Haltom City, Texas",
+        "country": "US"
+      },
+      {
+        "entity_id": "S3-859268022",
+        "business_name": "International South Consultants Private Ltd",
+        "business_address": NaN,
+        "country": "India"
+      }
+    ]
+  },
+  "train_ground_truth.tsv": {
+    "size_mb": 121.13,
+    "total_rows": 2206821,
+    "columns": [
+      "source1_entity_id",
+      "matched_entity_ids"
+    ],
+    "sample_head": [
+      {
+        "source1_entity_id": "S1-965667",
+        "matched_entity_ids": "S2-681193310,S2-743505751,S3-775321672,S3-11291185,S3-860443364"
+      },
+      {
+        "source1_entity_id": "S1-55344266",
+        "matched_entity_ids": "S2-249013014,S2-197070651,S3-478195123,S3-384364074"
+      }
+    ]
+  },
+  "test_source1.tsv": {
+    "size_mb": 166.91,
+    "total_rows": 1732544,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "sample_head": [
+      {
+        "entity_id": "S1-714132312",
+        "business_name": "Zephay Labs Inc",
+        "business_address": "2621 Cotten Road, Tyler, TX",
+        "country": "US"
+      },
+      {
+        "entity_id": "S1-106407869",
+        "business_name": "Vision Partners Corp",
+        "business_address": "IA, Iowa City, 1064 Newton Rd, Unit 11",
+        "country": "US"
+      }
+    ]
+  },
+  "test_source2.tsv": {
+    "size_mb": 485.86,
+    "total_rows": 4887273,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "sample_head": [
+      {
+        "entity_id": "S2-192345572",
+        "business_name": "Brahma Infosoft",
+        "business_address": "COIMATORE COLONY, HUNSUR TQMYSORE DIST., Karnataka",
+        "country": "India"
+      },
+      {
+        "entity_id": "S2-566025912",
+        "business_name": "Marina Ecole France Sarl",
+        "business_address": "63 R. DE DIEPPE, LILLE, Hauts-de-France",
+        "country": "France"
+      }
+    ]
+  },
+  "test_source3.tsv": {
+    "size_mb": 482.56,
+    "total_rows": 5082316,
+    "columns": [
+      "entity_id",
+      "business_name",
+      "business_address",
+      "country"
+    ],
+    "sample_head": [
+      {
+        "entity_id": "S3-462677478",
+        "business_name": "\u092e\u0949\u0921\u0930\u094d\u0928 \u092b\u093e\u0907\u0928\u0947\u0902\u0938",
+        "business_address": "No 10 Enkay Square, 448A, Udyog Vihar Phase V, Gurugram, Gurgaon, HR",
+        "country": "India"
+      },
+      {
+        "entity_id": "S3-374810425",
+        "business_name": "Shri Sai Infratech Co",
+        "business_address": "3/115, East Delhi, DL",
+        "country": "India"
+      }
+    ]
+  }
+}

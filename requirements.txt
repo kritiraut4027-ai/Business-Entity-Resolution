@@ -1,0 +1,10 @@
+# Core Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning & Metrics
+scikit-learn>=1.3.0
+lightgbm>=4.0.0
+
+# High-Performance String & Token Matching (C++ accelerated)
+rapidfuzz>=3.0.0

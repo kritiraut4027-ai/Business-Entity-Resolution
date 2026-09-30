@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Competition & Local Offline Archive
+_archive/
+submission-package*
+submission-package/
+submission-package.zip
+
+# Datasets and Raw External Data
+data/
+datasets/
+ML Challenge/
+*.zip
+*.tar.gz
+*.7z
+*.parquet
+*.jsonl
+
+# Generated Output TSVs and Evaluation Dumps
+*.tsv
+*.csv
+output/*.tsv
+output/*.csv
+
+# SQLite Databases & Resumable Checkpoint Stores
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+output/*.db
+output/*.db-wal
+output/*.db-shm
+
+# Ensure output directory tracking placeholder is preserved
+!output/.gitkeep
+
+# Explicitly ensure core production model artifacts are preserved
+!models/lgbm_model.pkl
+!models/model_config.json
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Unit Test & Coverage Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & OS-Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets and Environment Variables
+.env
+.env.*
+secrets.json
+*.pem
+*.key
